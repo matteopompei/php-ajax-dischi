@@ -28,9 +28,16 @@ main {
   margin: 0 auto;
   padding: 100px 0;
   width: 1120px;
+}
+
+.container > div {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 30px;
+}
+
+.loading {
+  font-size: 3rem;
 }
 
 .album {
