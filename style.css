@@ -27,12 +27,34 @@ main {
 .container {
   margin: 0 auto;
   padding: 100px 0;
-  width: 1000px;
+  width: 1120px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px 30px;
 }
 
 .album {
   background: #2e3a46;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.album > img {
+  margin-bottom: 20px;
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.album > .title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.3);
 }
